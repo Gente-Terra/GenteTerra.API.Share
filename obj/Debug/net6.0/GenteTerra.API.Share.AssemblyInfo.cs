@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GenteTerra.API.Share")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+95020bc906b5298ed02733876923940e342dac85")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+db3398a70e50749ecda59bd77287dfbf2b61981c")]
 [assembly: System.Reflection.AssemblyProductAttribute("GenteTerra.API.Share")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GenteTerra.API.Share")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
