@@ -51,7 +51,33 @@
         public string? StatusGNSSIdpJamming { get; set; }
         public string? StatusCellJamming { get; set; }
         public int? PercFalhasCoordNMEA { get; set; }
-
-
+        public string? hardwareVariant { get; set; }
+        public int? hardwareRevision { get; set; }
+        public string? hardwareResetReason { get; set; }
+        public int? firmwareMajor { get; set; }
+        public int? firmwareMinor { get; set; }
+        public int? firmwarePatch { get; set; }
+        public string? LSFVersion { get; set; }
+        public string? softwareResetReason { get; set; }
+        public int? sinList { get; set; }
+        public string? packageVersion { get; set; }
+        public int? hardwareMajorVersion { get; set; }
+        public int? hardwareMinorVersion { get; set; }
+        public int? softwareMajorVersion { get; set; }
+        public int? softwareMinorVersion { get; set; }
+        public int? product { get; set; }
+        public string? wakeupPeriod { get; set; }
+        public string? lastResetReason { get; set; }
+        public int? virtualCarrier { get; set; }
+        public int? beam { get; set; }
+        public int? vain { get; set; }
+        public int? reserved { get; set; }
+        public int? operatorTxState { get; set; }
+        public int? userTxState { get; set; }
+        public int? broadcastIDCount { get; set; }
+        public int? tag { get; set; } 
+        public string? success { get; set; }
+        public int? padding { get; set; }
+        public string? output { get; set; }
     }
 }
