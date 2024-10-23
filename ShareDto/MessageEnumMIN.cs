@@ -98,10 +98,10 @@
         [MensagemInfo("Mensagem Alerta Mensagem Bloqueada")]
         AlertaMsgBlocked = 57,
 
-        [MensagemInfo("Mensagem Alerta Mens. LOG Acima Ref. ")]
+        [MensagemInfo("Mensagem Alerta Mens. LOG Acima Ref.")]
         AlertaMsgLOGsUploadAcimaRef = 58,
 
-        [MensagemInfo("Mensagem Alerta Naveg. Falhas Coord. ")]
+        [MensagemInfo("Mensagem Alerta Naveg. Falhas Coord.")]
         AlertaNavegadorFalhasCoorNMEAAcimaRef = 59
 
     }

@@ -33,7 +33,24 @@
         public int? NumErrReadAnaInp { get; set; }
         public DateTime DataHoraInclusao { get; set; }
         public DateTime? DataHoraGeracao { get; set; }
-
+        public int? Propr { get; set; }
+        public string? ValProp { get; set; }
+        public int? Servico { get; set; }
+        public int? Servico { get; set; }
+        public string? Timer { get; set; }
+        public string? FlagTimerMonitorado { get; set; }
+        public int? DelayLimSeg { get; set; }
+        public int? TimeLastProcessQ { get; set; }
+        public string? RestartAplicado { get; set; }
+        public int? TimeLastRestartStorageg { get; set; }
+        public int? Sin_Vinculado { get; set; }
+        public string? FlagStatusIntermitenciaSAT { get; set; }
+        public string? TipoAlerta { get; set; }
+        public string? FlagAtivar { get; set; }
+        public string? StatusGNSSJamming { get; set; }
+        public string? StatusGNSSIdpJamming { get; set; }
+        public string? StatusCellJamming { get; set; }
+        public int? PercFalhasCoordNMEA { get; set; }
 
 
     }
