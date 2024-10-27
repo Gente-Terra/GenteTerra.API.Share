@@ -8,7 +8,7 @@
         public decimal Latitude { get; set; }
         public decimal Longitude { get; set; }
         public string Name { get; set; }
-        public int SIN { get; set; }
+        public MessageEnumSIN SIN { get; set; }
         public MessageEnumMIN MIN { get; set; }
         public DateTime MessageUTC { get; set; }
         public DateTime ReceiveUTC { get; set; }
@@ -31,11 +31,9 @@
         public int? NumErrReadDigOut { get; set; }
         public int? NumErrReadDigInp { get; set; }
         public int? NumErrReadAnaInp { get; set; }
-        public DateTime DataHoraInclusao { get; set; }
         public DateTime? DataHoraGeracao { get; set; }
         public int? Propr { get; set; }
         public string? ValProp { get; set; }
-        public int? Servico { get; set; }
         public int? Servico { get; set; }
         public string? Timer { get; set; }
         public string? FlagTimerMonitorado { get; set; }

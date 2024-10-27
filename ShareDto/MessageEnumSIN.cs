@@ -1,21 +1,21 @@
 ﻿namespace GenteTerra.API.Share.ShareDto
 {
-    public enum MessageEnumMIN
+    public enum MessageEnumSIN
     {
         [MensagemInfo("Modem")]
-        modem = 000,
+        MODEM = 0,
 
         [MensagemInfo("System")]
-        system = 016,
+        SYSTEM = 16,
 
         [MensagemInfo("Log")]
-        log = 023,
+        LOG = 23,
 
         [MensagemInfo("Shell")]
-        shell = 026,
+        SHELL = 26,
 
         [MensagemInfo("Serviço de Mensagens")]
-        ServMensagens = 158,
+        SERV_MENSAGEM = 158,
 
     }
 }
