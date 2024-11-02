@@ -1,10 +1,14 @@
-﻿[AttributeUsage(AttributeTargets.Field, AllowMultiple = false)]
-public class MensagemInfoAttribute : Attribute
+﻿
+namespace GenteTerra.API.Share.ShareDto
 {
-    public string Descricao { get; }
-
-    public MensagemInfoAttribute(string descricao)
+    [AttributeUsage(AttributeTargets.Field, AllowMultiple = false)]
+    public class MensagemInfoAttribute : Attribute
     {
-        Descricao = descricao;
+        public string Descricao { get; }
+
+        public MensagemInfoAttribute(string descricao)
+        {
+            Descricao = descricao;
+        }
     }
 }
