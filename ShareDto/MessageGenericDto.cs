@@ -4,6 +4,7 @@
     {
         public string Id { get; set; }
         public long OrbcomID { get; set; }
+        public int Order { get; set; }
         public string MobileID { get; set; }
         public decimal Latitude { get; set; }
         public decimal Longitude { get; set; }
@@ -73,7 +74,7 @@
         public int? operatorTxState { get; set; }
         public int? userTxState { get; set; }
         public int? broadcastIDCount { get; set; }
-        public int? tag { get; set; } 
+        public int? tag { get; set; }
         public string? success { get; set; }
         public int? padding { get; set; }
         public string? output { get; set; }
