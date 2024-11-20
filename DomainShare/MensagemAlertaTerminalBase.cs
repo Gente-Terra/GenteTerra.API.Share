@@ -14,6 +14,7 @@ namespace GenteTerra.API.Share.DomainShare
         public MessageEnumMIN MIN { get; set; }
         public DateTime MessageUTC { get; set; }
         public DateTime ReceiveUTC { get; set; }
+        public DateTime DataHoraInclusao { get; set; }
         public long DataHoraMensagem { get; set; }
         public int? VelocKmh { get; set; }
         public int? SinCell { get; set; }
@@ -34,6 +35,7 @@ namespace GenteTerra.API.Share.DomainShare
         public int? NumErrReadDigInp { get; set; }
         public int? NumErrReadAnaInp { get; set; }
         public DateTime? DataHoraGeracao { get; set; }
+        public int Ordem { get; set; }
         public int? Propr { get; set; }
         public string? ValProp { get; set; }
         public int? Servico { get; set; }
