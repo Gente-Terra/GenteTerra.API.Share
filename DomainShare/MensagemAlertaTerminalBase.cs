@@ -1,4 +1,5 @@
 ﻿using GenteTerra.API.Share.ShareDto;
+using System.Text.Json;
 
 namespace GenteTerra.API.Share.DomainShare
 {
@@ -53,5 +54,6 @@ namespace GenteTerra.API.Share.DomainShare
         public string? StatusGNSSIdpJamming { get; set; }
         public string? StatusCellJamming { get; set; }
         public int? PercFalhasCoordNMEA { get; set; }
+        public JsonDocument? Data { get; set; }
     }
 }
