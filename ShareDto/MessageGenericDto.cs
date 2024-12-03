@@ -1,6 +1,4 @@
-﻿using System.Text.Json;
-
-namespace GenteTerra.API.Share.ShareDto
+﻿namespace GenteTerra.API.Share.ShareDto
 {
     public class MessageGenericDto
     {
@@ -80,6 +78,6 @@ namespace GenteTerra.API.Share.ShareDto
         public string? success { get; set; }
         public int? padding { get; set; }
         public string? output { get; set; }
-        public JsonDocument? Data { get; set; }
+        public object? Data { get; set; }
     }
 }
